@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A5650E1207C8E0B003B561C /* ActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5650E0207C8E0B003B561C /* ActivityVC.swift */; };
 		5A7B51DD207B3BFC00356BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B51DC207B3BFC00356BCD /* AppDelegate.swift */; };
 		5A7B51DF207B3BFC00356BCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B51DE207B3BFC00356BCD /* ViewController.swift */; };
-		5A7B51E2207B3BFC00356BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7B51E0207B3BFC00356BCD /* Main.storyboard */; };
 		5A7B51E5207B3BFC00356BCD /* KindleBasicTrning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B51E3207B3BFC00356BCD /* KindleBasicTrning.xcdatamodeld */; };
 		5A7B51E7207B3BFE00356BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A7B51E6207B3BFE00356BCD /* Assets.xcassets */; };
 		5A7B51EA207B3BFE00356BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7B51E8207B3BFE00356BCD /* LaunchScreen.storyboard */; };
 		5A7B51F5207B3BFE00356BCD /* KindleBasicTrningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B51F4207B3BFE00356BCD /* KindleBasicTrningTests.swift */; };
 		5A7B5200207B3BFE00356BCD /* KindleBasicTrningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B51FF207B3BFE00356BCD /* KindleBasicTrningUITests.swift */; };
+		5A7B520E207B3C3300356BCD /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B520D207B3C3300356BCD /* Models.swift */; };
+		5A7B5213207B49F100356BCD /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B5212207B49F100356BCD /* BookCell.swift */; };
+		5A7B5215207B736400356BCD /* BookPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B5214207B736400356BCD /* BookPageController.swift */; };
+		5A7B5217207B7B4000356BCD /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B5216207B7B4000356BCD /* PageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A5650E0207C8E0B003B561C /* ActivityVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityVC.swift; sourceTree = "<group>"; };
 		5A7B51D9207B3BFC00356BCD /* KindleBasicTrning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindleBasicTrning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7B51DC207B3BFC00356BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A7B51DE207B3BFC00356BCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5A7B51E1207B3BFC00356BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A7B51E4207B3BFC00356BCD /* KindleBasicTrning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KindleBasicTrning.xcdatamodel; sourceTree = "<group>"; };
 		5A7B51E6207B3BFE00356BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A7B51E9207B3BFE00356BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		5A7B51FB207B3BFE00356BCD /* KindleBasicTrningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KindleBasicTrningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7B51FF207B3BFE00356BCD /* KindleBasicTrningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindleBasicTrningUITests.swift; sourceTree = "<group>"; };
 		5A7B5201207B3BFE00356BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7B520D207B3C3300356BCD /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		5A7B5212207B49F100356BCD /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		5A7B5214207B736400356BCD /* BookPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPageController.swift; sourceTree = "<group>"; };
+		5A7B5216207B7B4000356BCD /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,9 @@
 		5A7B51D0207B3BFC00356BCD = {
 			isa = PBXGroup;
 			children = (
+				5A7B5211207B416A00356BCD /* Controller */,
+				5A7B5210207B416000356BCD /* View */,
+				5A7B520F207B415000356BCD /* Model */,
 				5A7B51DB207B3BFC00356BCD /* KindleBasicTrning */,
 				5A7B51F3207B3BFE00356BCD /* KindleBasicTrningTests */,
 				5A7B51FE207B3BFE00356BCD /* KindleBasicTrningUITests */,
@@ -100,8 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				5A7B51DC207B3BFC00356BCD /* AppDelegate.swift */,
-				5A7B51DE207B3BFC00356BCD /* ViewController.swift */,
-				5A7B51E0207B3BFC00356BCD /* Main.storyboard */,
 				5A7B51E6207B3BFE00356BCD /* Assets.xcassets */,
 				5A7B51E8207B3BFE00356BCD /* LaunchScreen.storyboard */,
 				5A7B51EB207B3BFE00356BCD /* Info.plist */,
@@ -126,6 +135,33 @@
 				5A7B5201207B3BFE00356BCD /* Info.plist */,
 			);
 			path = KindleBasicTrningUITests;
+			sourceTree = "<group>";
+		};
+		5A7B520F207B415000356BCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A7B520D207B3C3300356BCD /* Models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A7B5210207B416000356BCD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A7B5212207B49F100356BCD /* BookCell.swift */,
+				5A7B5216207B7B4000356BCD /* PageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A7B5211207B416A00356BCD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A7B51DE207B3BFC00356BCD /* ViewController.swift */,
+				5A7B5214207B736400356BCD /* BookPageController.swift */,
+				5A5650E0207C8E0B003B561C /* ActivityVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +270,6 @@
 			files = (
 				5A7B51EA207B3BFE00356BCD /* LaunchScreen.storyboard in Resources */,
 				5A7B51E7207B3BFE00356BCD /* Assets.xcassets in Resources */,
-				5A7B51E2207B3BFC00356BCD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +295,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A7B51E5207B3BFC00356BCD /* KindleBasicTrning.xcdatamodeld in Sources */,
+				5A5650E1207C8E0B003B561C /* ActivityVC.swift in Sources */,
 				5A7B51DF207B3BFC00356BCD /* ViewController.swift in Sources */,
 				5A7B51DD207B3BFC00356BCD /* AppDelegate.swift in Sources */,
+				5A7B5215207B736400356BCD /* BookPageController.swift in Sources */,
+				5A7B520E207B3C3300356BCD /* Models.swift in Sources */,
+				5A7B5213207B49F100356BCD /* BookCell.swift in Sources */,
+				5A7B5217207B7B4000356BCD /* PageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +337,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5A7B51E0207B3BFC00356BCD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A7B51E1207B3BFC00356BCD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5A7B51E8207B3BFE00356BCD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -367,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -421,7 +453,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -435,13 +467,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5LC376D52F;
+				DEVELOPMENT_TEAM = Q783J47277;
 				INFOPLIST_FILE = KindleBasicTrning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ssss.KindleBasicTrning;
+				PRODUCT_BUNDLE_IDENTIFIER = www.iconic.KindleBasicAppStructure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,13 +485,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5LC376D52F;
+				DEVELOPMENT_TEAM = Q783J47277;
 				INFOPLIST_FILE = KindleBasicTrning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ssss.KindleBasicTrning;
+				PRODUCT_BUNDLE_IDENTIFIER = www.iconic.KindleBasicAppStructure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
